@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="免费提供NVIDIA(英伟达)显卡官方驱动历史版本下载，支持按驱动名称、版本号、操作系统及语言精准检索。快速查找冷门旧版驱动，助您解决兼容性问题，让老显卡恢复满血状态。">
+    <title>NVIDIA 历史驱动检索</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="./assets/favicon-48x48.png" />
+    <link rel="icon" type="image/x-icon" sizes="48x48" href="./assets/favicon-48x48.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <div class="hero__media" aria-hidden="true">
+          <div class="chip-grid">
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="hero__content">
+          <p class="eyebrow">Driver Archive</p>
+          <h1>NVIDIA 老版驱动检索</h1>
+          <p class="hero__copy">按版本、系统、语言查找官方历史驱动。</p>
+        </div>
+      </section>
+
+      <section class="workspace" aria-label="驱动检索">
+        <form class="filters" id="filters">
+          <label class="field field--wide">
+            <span>关键词</span>
+            <input id="keyword" name="keyword" type="search" placeholder="驱动名称、版本、系统" autocomplete="off" />
+          </label>
+
+          <label class="field">
+            <span>版本号</span>
+            <input id="version" name="version" type="text" placeholder="例如 552.44" autocomplete="off" />
+          </label>
+
+          <label class="field">
+            <span>操作系统</span>
+            <select id="os" name="os">
+              <option value="">全部系统</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>语言</span>
+            <select id="language" name="language">
+              <option value="">全部语言</option>
+              <option value="Chinese (Simplified)" selected>中文（简体）</option>
+              <option value="Chinese (Traditional)">中文（繁體）</option>
+              <option value="English (US)">英语（美式）</option>
+            </select>
+          </label>
+
+          <!-- <label class="field">
+            <span>开始日期</span>
+            <input id="dateFrom" name="dateFrom" type="date" />
+          </label>
+
+          <label class="field">
+            <span>结束日期</span>
+            <input id="dateTo" name="dateTo" type="date" />
+          </label>
+
+          <label class="field">
+            <span>排序</span>
+            <select id="sort" name="sort">
+              <option value="release_desc">发布日期新到旧</option>
+              <option value="release_asc">发布日期旧到新</option>
+              <option value="version_desc">版本号高到低</option>
+              <option value="version_asc">版本号低到高</option>
+            </select>
+          </label> -->
+
+          <div class="filter-actions">
+            <button class="button button--ghost" type="reset">重置</button>
+            <button class="button button--primary" type="submit">检索</button>
+          </div>
+        </form>
+
+        <div class="summary-row">
+          <div>
+            <strong id="resultCount">0</strong>
+            <span>条记录</span>
+          </div>
+          <label class="page-size">
+            <span>每页</span>
+            <select id="pageSize">
+              <option value="10">10</option>
+              <option value="20" selected>20</option>
+              <option value="50">50</option>
+            </select>
+          </label>
+        </div>
+
+        <section class="results" id="results" aria-live="polite"></section>
+
+        <nav class="pagination" aria-label="分页">
+          <button class="icon-button" id="prevPage" type="button" aria-label="上一页">‹</button>
+          <span id="pageInfo">第 1 / 1 页</span>
+          <button class="icon-button" id="nextPage" type="button" aria-label="下一页">›</button>
+        </nav>
+      </section>
+    </main>
+
+    <script src="./data/local-drivers.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
