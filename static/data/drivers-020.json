@@ -1,0 +1,202 @@
+{
+  "items": [
+    {
+      "id": 271253,
+      "driver_id": 271253,
+      "driver_name": "GeForce Security Update Driver",
+      "driver_version": "582.53",
+      "release_time": "2026-05-19",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/271253/",
+      "download_url": "https://cn.download.nvidia.com/Windows/582.53/582.53-notebook-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 271220,
+      "driver_id": 271220,
+      "driver_name": "GeForce Security Update Driver",
+      "driver_version": "582.53",
+      "release_time": "2026-05-19",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/271220/",
+      "download_url": "https://cn.download.nvidia.com/Windows/582.53/582.53-desktop-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 270427,
+      "driver_id": 270427,
+      "driver_name": "GeForce Game Ready 驱动程序",
+      "driver_version": "596.49",
+      "release_time": "2026-05-12",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/270427/",
+      "download_url": "https://cn.download.nvidia.com/Windows/596.49/596.49-notebook-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 270395,
+      "driver_id": 270395,
+      "driver_name": "GeForce Game Ready 驱动程序",
+      "driver_version": "596.49",
+      "release_time": "2026-05-12",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/270395/",
+      "download_url": "https://cn.download.nvidia.com/Windows/596.49/596.49-desktop-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 267193,
+      "driver_id": 267193,
+      "driver_name": "GeForce Game Ready 驱动程序",
+      "driver_version": "596.21",
+      "release_time": "2026-04-16",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/267193/",
+      "download_url": "https://cn.download.nvidia.com/Windows/596.21/596.21-notebook-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 267161,
+      "driver_id": 267161,
+      "driver_name": "GeForce Game Ready 驱动程序",
+      "driver_version": "596.21",
+      "release_time": "2026-04-16",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/267161/",
+      "download_url": "https://cn.download.nvidia.com/Windows/596.21/596.21-desktop-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 271681,
+      "driver_id": 271681,
+      "driver_name": "NVIDIA Studio 驱动程序",
+      "driver_version": "610.47",
+      "release_time": "2026-05-26",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/271681/",
+      "download_url": "https://cn.download.nvidia.com/Windows/610.47/610.47-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+    },
+    {
+      "id": 271617,
+      "driver_id": 271617,
+      "driver_name": "NVIDIA Studio 驱动程序",
+      "driver_version": "610.47",
+      "release_time": "2026-05-26",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/271617/",
+      "download_url": "https://cn.download.nvidia.com/Windows/610.47/610.47-desktop-win10-win11-64bit-international-nsd-dch-whql.exe"
+    },
+    {
+      "id": 271585,
+      "driver_id": 271585,
+      "driver_name": "GeForce Game Ready 驱动程序",
+      "driver_version": "610.47",
+      "release_time": "2026-05-26",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/271585/",
+      "download_url": "https://cn.download.nvidia.com/Windows/610.47/610.47-notebook-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 271424,
+      "driver_id": 271424,
+      "driver_name": "GeForce Game Ready 驱动程序",
+      "driver_version": "610.47",
+      "release_time": "2026-05-26",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/271424/",
+      "download_url": "https://cn.download.nvidia.com/Windows/610.47/610.47-desktop-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 272909,
+      "driver_id": 272909,
+      "driver_name": "GeForce Security Update Driver",
+      "driver_version": "582.66",
+      "release_time": "2026-06-16",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/272909/",
+      "download_url": "https://cn.download.nvidia.com/Windows/582.66/582.66-notebook-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 272900,
+      "driver_id": 272900,
+      "driver_name": "GeForce Security Update Driver",
+      "driver_version": "582.66",
+      "release_time": "2026-06-16",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/272900/",
+      "download_url": "https://cn.download.nvidia.com/Windows/582.66/582.66-desktop-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 272868,
+      "driver_id": 272868,
+      "driver_name": "NVIDIA Studio 驱动程序",
+      "driver_version": "610.62",
+      "release_time": "2026-06-16",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/272868/",
+      "download_url": "https://cn.download.nvidia.com/Windows/610.62/610.62-notebook-win10-win11-64bit-international-nsd-dch-whql.exe"
+    },
+    {
+      "id": 272836,
+      "driver_id": 272836,
+      "driver_name": "GeForce Game Ready 驱动程序",
+      "driver_version": "610.62",
+      "release_time": "2026-06-16",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/272836/",
+      "download_url": "https://cn.download.nvidia.com/Windows/610.62/610.62-notebook-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 272778,
+      "driver_id": 272778,
+      "driver_name": "GeForce Game Ready 驱动程序",
+      "driver_version": "610.62",
+      "release_time": "2026-06-16",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/272778/",
+      "download_url": "https://cn.download.nvidia.com/Windows/610.62/610.62-desktop-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 272772,
+      "driver_id": 272772,
+      "driver_name": "NVIDIA Studio 驱动程序",
+      "driver_version": "610.62",
+      "release_time": "2026-06-16",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/272772/",
+      "download_url": "https://cn.download.nvidia.com/Windows/610.62/610.62-desktop-win10-win11-64bit-international-nsd-dch-whql.exe"
+    },
+    {
+      "id": 274351,
+      "driver_id": 274351,
+      "driver_name": "GeForce Game Ready 驱动程序",
+      "driver_version": "610.74",
+      "release_time": "2026-07-07",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/274351/",
+      "download_url": "https://cn.download.nvidia.com/Windows/610.74/610.74-notebook-win10-win11-64bit-international-dch-whql.exe"
+    },
+    {
+      "id": 274319,
+      "driver_id": 274319,
+      "driver_name": "GeForce Game Ready 驱动程序",
+      "driver_version": "610.74",
+      "release_time": "2026-07-07",
+      "language": "Chinese (Simplified)",
+      "os": "Windows 10 64-bit, Windows 11",
+      "detail_url": "https://www.nvidia.com/zh-cn/drivers/details/274319/",
+      "download_url": "https://cn.download.nvidia.com/Windows/610.74/610.74-desktop-win10-win11-64bit-international-dch-whql.exe"
+    }
+  ]
+}
