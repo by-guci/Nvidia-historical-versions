@@ -3,6 +3,8 @@ services:
   nvidia-drivers:
     build: .
     container_name: nvidia-drivers
+    # 与镜像内 appuser (UID 1000) 一致，确保能写宿主机挂载的 static/data
+    user: "1000:1000"
     ports:
       - "8090:8090"
     environment:
@@ -25,6 +27,8 @@ services:
   nvidia-updater:
     build: .
     container_name: nvidia-updater
+    # 与镜像内 appuser (UID 1000) 一致，确保能写宿主机挂载的 static/data
+    user: "1000:1000"
     command: >
       /bin/sh -c "
       while true; do

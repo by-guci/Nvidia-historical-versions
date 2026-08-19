@@ -17,12 +17,22 @@ NVIDIA 历史驱动检索 —— 一个基于 Go 的轻量级驱动检索网站�
 
 ```bash
 # Docker Compose 一键启动（Web 服务 + 定时更新器）
-docker compose up -d
+docker compose up -d --build
 
 # 或本地直接运行
 go run .
 # 访问 http://localhost:8090
 ```
+
+> **⚠️ 部署注意（重要）**：两个容器均以 UID 1000（appuser）运行，需要能写入宿主机挂载的 `static/data` 目录。如果 updater 报 `permission denied`，在服务器上执行：
+>
+> ```bash
+> # 将数据目录属主改为 UID 1000（与容器内 appuser 一致）
+> sudo chown -R 1000:1000 static/data
+> docker compose up -d --build
+> ```
+>
+> 若你的服务器 UID 1000 已被其他用户占用，可改为其他 UID（如 1001），但需同步修改 `Dockerfile` 中 `adduser -u` 和 `docker-compose.yml` 中 `user:` 两处。
 
 手动更新驱动数据：
 

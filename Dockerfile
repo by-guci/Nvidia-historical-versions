@@ -23,7 +23,9 @@ RUN apk add --no-cache ca-certificates tzdata && \
 
 # 非 root 运行。先建用户，static/ 才能带着正确属主拷入，
 # 否则 updater 以 appuser 身份写 /static/data 会因权限被拒。
-RUN adduser -D -g '' appuser
+# UID 固定为 1000：与 docker-compose.yml 中 user: "1000:1000" 保持一致，
+# 以便容器进程能写入宿主机 bind mount 的 static/data 目录。
+RUN adduser -D -g '' -u 1000 appuser
 
 COPY --from=builder /app/server /server
 COPY --from=builder /app/updater /updater
