@@ -1,0 +1,47 @@
+services:
+  # ── Web 服务 ──
+  nvidia-drivers:
+    build: .
+    container_name: nvidia-drivers
+    ports:
+      - "8090:8090"
+    environment:
+      - PORT=8090
+    restart: unless-stopped
+    volumes:
+      - ./static/data:/static/data:rw
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8090/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # ── 数据更新器（每周日凌晨 3 点执行） ──
+  nvidia-updater:
+    build: .
+    container_name: nvidia-updater
+    command: >
+      /bin/sh -c "
+      while true; do
+        if [ \"$$(date +%u-%H:%M)\" = \"7-03:00\" ]; then
+          echo '=== 检查更新 '$$(date) '===';
+          /updater -data /static/data -scan 5000 || echo '!!! 更新失败，退出码 '$$?' —— 数据未变更';
+          sleep 60;
+        else
+          sleep 30;
+        fi;
+      done
+      "
+    volumes:
+      - ./static/data:/static/data:rw
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "5m"
+        max-file: "2"
