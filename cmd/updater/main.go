@@ -25,7 +25,7 @@ import (
 
 const (
 	// 每次请求间隔
-	requestDelay = 200 * time.Millisecond
+	requestDelay = 30 * time.Millisecond
 )
 
 // NVIDIA GeForce 服务 API，测试中会被替换为本地 httptest 地址
@@ -86,8 +86,8 @@ type osItem struct {
 
 func main() {
 	dataDirFlag := flag.String("data", "static/data", "驱动数据目录路径")
-	scanRange := flag.Int("scan", 3000, "从当前最大 ID 向前扫描的数量")
-	workersFlag := flag.Int("workers", 5, "并发请求数")
+	scanRange := flag.Int("scan", 1000, "从当前最大 ID 向前扫描的数量")
+	workersFlag := flag.Int("workers", 20, "并发请求数")
 	dryRun := flag.Bool("dry-run", false, "仅扫描不写入文件")
 	flag.Parse()
 
